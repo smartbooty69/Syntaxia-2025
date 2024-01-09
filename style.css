@@ -9,8 +9,16 @@ body {
     /* border: 1px solid red; */
 }
 
+img {
+    display: block;
+}
+
+h1,h2,h3,h4,nav {
+    font-family: 'Bruno Ace', sans-serif;
+    letter-spacing: 8px;
+}
+
 header {
-    /* background-color: #ffffff00; */
     width: 100%;
     position: absolute;
 }
@@ -19,16 +27,46 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #ffffff00;
-
 }
 
-img {
-    max-width: 70%;
+nav {
+    height: 80px;
+    align-items: center;
+    min-width: 600px;
+    display: flex;
+    gap: 2rem;
+    margin: auto;
 }
 
-h1,h2,h3,h4 {
-    font-family: 'Gruppo', sans-serif;
-    letter-spacing: 15px;
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #ffa800;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+
+nav a:after {
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;  
+}
+
+nav a:hover {
+    color: orangered;
+    transition: 0.3s;  
+}
+
+nav a:hover:after {
+    width: 100%;
 }
 
 nav ul {
@@ -41,14 +79,39 @@ nav ul {
 
 
 #hero {
-    height: 100dvh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url(images/Group\ 32.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 75dvh;
+
+}
+
+#hero .logo {
+    /* padding-top: 5rem; */
+    text-align: center;
+}
+
+#hero .logo img {
+    max-width: 80%;
+    margin: auto;
+}
+
+#hero .title {
+    margin: 15px 0;
+}
+
+#hero .title img {
+    scale: 1.3;
+    margin: auto;
 }
 
 #hero h1 {
@@ -58,6 +121,6 @@ nav ul {
 }
 
 #registration {
-    background-image: linear-gradient(orangered, #000);
+    background-image: linear-gradient(#cd0101ce, #000);
     color: #000;
 }
