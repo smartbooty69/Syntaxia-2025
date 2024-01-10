@@ -166,3 +166,7 @@ li {
     margin-bottom: 10px;
 }
 
+/* footer .contact li:first-of-type::before {
+    content: "dot";
+    margin-right: 10px;
+} */
