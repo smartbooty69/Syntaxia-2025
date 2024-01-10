@@ -77,11 +77,20 @@ nav ul {
     gap: 10px;
 }
 
-
 #hero {
     background-image: url(images/background.png);
-    background-position: center;
     background-repeat: no-repeat;
+    animation: pan-up 20s linear infinite alternate both;
+}
+
+@keyframes pan-up {
+    0% {
+        background-position: top;
+    }
+
+    100% {
+        background-position: center;
+    }
 }
 
 #hero .container {
@@ -115,7 +124,6 @@ nav ul {
 }
 
 #hero h1 {
-  
     margin-top: 0;
     font-size: 2rem;
 }
@@ -124,3 +132,4 @@ nav ul {
     background-image: linear-gradient(#cd0101ce, #000);
     color: #000;
 }
+
