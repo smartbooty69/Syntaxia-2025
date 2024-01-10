@@ -9,6 +9,11 @@ body {
     /* border: 1px solid red; */
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
 img {
     display: block;
 }
@@ -16,6 +21,20 @@ img {
 h1,h2,h3,h4,nav {
     font-family: 'Bruno Ace', sans-serif;
     letter-spacing: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa800;
+    font-size: 12px;
+    font-family: 'Bruno Ace', sans-serif;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+a:hover {
+    color: orangered;
+    transition: 0.3s;  
 }
 
 header {
@@ -40,16 +59,15 @@ nav {
 
 nav a {
     position: relative;
-    text-decoration: none;
-    color: #ffa800;
     font-size: 12px;
+    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     padding: 0 10px;
 }
 
 
-nav a:after {
+nav a:after, footer a:after {
     content: "";
     position: absolute;
     background-color: orangered;
@@ -60,12 +78,9 @@ nav a:after {
     transition: 0.3s;  
 }
 
-nav a:hover {
-    color: orangered;
-    transition: 0.3s;  
-}
 
-nav a:hover:after {
+
+nav a:hover:after, footer a:hover:after {
     width: 100%;
 }
 
@@ -76,6 +91,8 @@ nav ul {
     padding: 0;
     gap: 10px;
 }
+
+/* HERO SECTION */
 
 #hero {
     background-image: url(images/background.png);
@@ -128,8 +145,24 @@ nav ul {
     font-size: 2rem;
 }
 
+/* REGISTRATION SECTION */
+
 #registration {
     background-image: linear-gradient(#cd0101ce, #000);
     color: #000;
+}
+
+/* FOOTER SECTION */
+footer .row {
+    align-items: center;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
 }
 
