@@ -102,11 +102,11 @@ nav ul {
 
 @keyframes pan-up {
     0% {
-        background-position: top;
+        background-position: center;
     }
 
     100% {
-        background-position: center;
+        background-position: top;
     }
 }
 
@@ -150,9 +150,24 @@ nav ul {
 #registration {
     background-image: linear-gradient(#cd0101ce, #000);
     color: #000;
+    text-align: center;
+}
+
+#registration .container {
+    padding-top: 3rem;
+}
+
+.register-banner h2 {
+    margin: 0;
+    margin-bottom: 80px;
 }
 
 /* FOOTER SECTION */
+
+footer .container {
+    padding-top: 2rem;
+}
+
 footer .row {
     align-items: center;
 }
