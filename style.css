@@ -23,6 +23,10 @@ body {
     justify-content: space-around;
 }
 
+p {
+    font-size: 17px;
+}
+
 img {
     display: block;
 }
@@ -30,6 +34,10 @@ img {
 h1,h2,h3,h4,nav {
     font-family: 'Bruno Ace', sans-serif;
     letter-spacing: 8px;
+}
+
+h2{
+    color: #ffa800;
 }
 
 a {
@@ -44,6 +52,17 @@ a {
 a:hover {
     color: orangered;
     transition: 0.3s;  
+}
+
+.button a {
+    border: 1px solid #ffa800;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.button a:hover {
+    border: 1px solid orangered;
+    box-shadow: 0px 7px 0px #cd01017a;
 }
 
 header {
@@ -90,7 +109,6 @@ nav a:after, footer a:after {
     bottom: -5px;
     transition: 0.3s;  
 }
-
 
 
 nav a:hover:after, footer a:hover:after {
@@ -175,17 +193,6 @@ nav ul {
     padding: 1rem 10rem 20rem;
 }
 
-#about .button a {
-    border: 1px solid #ffa800;
-    padding: 5px 10px;
-    transition: 0.3s;
-}
-
-#about .button a:hover {
-    border: 1px solid orangered;
-    /* box-shadow: 10px 5px 5px #ffa800; */
-}
-
 /* EVENTS SECTION */
 
 #events .container {
@@ -235,7 +242,11 @@ li {
     margin-bottom: 10px;
 }
 
-/* footer .contact li:first-of-type::before {
-    content: "dot";
-    margin-right: 10px;
-} */
+footer a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+}
+
+.contact a {
+    font-size: 13px;
+}
