@@ -17,6 +17,9 @@ body {
     body{
        background-image: unset;
     }
+    .nav-links {
+        display: none;
+    }
 }
 
 .container {
