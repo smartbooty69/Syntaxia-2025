@@ -13,6 +13,12 @@ body {
     background-position: 0 -600px;
 }
 
+@media screen and (max-width:768px) {
+    body{
+       background-image: unset;
+    }
+}
+
 .container {
     padding: 5rem 8rem;
     /* border: 1px solid red; */
@@ -76,6 +82,7 @@ header {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ffffff00;
 }
@@ -121,6 +128,7 @@ nav a:hover:after, footer a:hover:after {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     padding: 0;
