@@ -13,8 +13,6 @@ body {
     background-position: 0 -650px;
 }
 
-
-
 .container {
     padding: 5rem 8rem;
     /* border: 1px solid red; */
@@ -213,6 +211,7 @@ nav ul {
 .event-icon img {
     height: 10rem;
     margin: auto;
+    max-width: 180px;
 }
 
 #events h3 {
