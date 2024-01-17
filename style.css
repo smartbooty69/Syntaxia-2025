@@ -287,7 +287,7 @@ footer ul {
     body{
        background-image: unset;
     }
-    .nav-links {
+    .nav-links, .nav-buttons {
         display: none;
     }
     .container {
