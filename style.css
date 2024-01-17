@@ -9,8 +9,8 @@ body {
     font-family: 'Didact Gothic', sans-serif;
     background-image: url(images/background-2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -600px;
+    background-size: contain;
+    background-position: 0 -650px;
 }
 
 
@@ -208,6 +208,11 @@ nav ul {
     /* padding-top: 0; */
     padding: 1rem 10rem 4rem;
     /* margin-top: -10rem; */
+}
+
+.event-icon img {
+    height: 10rem;
+    margin: auto;
 }
 
 #events h3 {
