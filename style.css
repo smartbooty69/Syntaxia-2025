@@ -326,6 +326,7 @@ footer ul {
     }
     #registration {
         background-image: linear-gradient(#cd0101ce, #000000 70%);
+        line-height: 25px;
     }
     footer .row {
         flex-direction: column;
