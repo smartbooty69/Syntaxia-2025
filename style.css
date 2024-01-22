@@ -150,7 +150,7 @@ nav ul {
 
 #hero .container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -180,6 +180,10 @@ nav ul {
 
 #hero .title img:hover {
     scale: 1.4;
+}
+
+#hero .mob-title {
+    display: none;
 }
 
 #hero h1 {
@@ -303,7 +307,7 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     body{
        background-image: unset;
     }
@@ -312,6 +316,13 @@ footer ul {
     }
     .container {
         padding: 2rem!important;
+    }
+    .web-title {
+        display: none;
+    }
+    #hero .mob-title {
+        display: block;
+        width: 60%;
     }
     #registration {
         background-image: linear-gradient(#cd0101ce, #000000 70%);
