@@ -7,7 +7,7 @@ body {
     color: orangered;
     margin: 0;
     font-family: 'Didact Gothic', sans-serif;
-    background-image: url(images/background-2.png);
+    background-image: url(images/background-2.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 -650px;
@@ -141,7 +141,7 @@ nav ul {
 /* HERO SECTION */
 
 #hero {
-    background-image: url(images/background.png);
+    background-image: url(images/background.webp);
     background-repeat: no-repeat;
     animation: pan-up 20s linear infinite alternate both;
 }
@@ -303,6 +303,7 @@ footer ul {
 
 .tp-logo img {
     transition: 0.3s;
+    max-width: 100%;
 }
 
 .tp-logo a:hover>img {
