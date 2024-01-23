@@ -75,11 +75,19 @@ header {
     position: absolute;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ffffff00;
+    position: fixed;
+    z-index: 3;
+    transition: background-color 0.5s ease-in-out;
+    width: 100%;
+}
+
+.navbar.solid {
+    background-color: #000;
 }
 
 nav {
