@@ -319,6 +319,117 @@ footer ul {
     width: 0%;
 }
 
+/* INNER HERO */
+.no-bg {
+    background-image: unset;
+}
+
+#inner-hero {
+    background-image: linear-gradient(#cd0101,black);
+    background-size: 400% 400%;
+    animation: innerhero 30s ease infinite;
+}
+
+@keyframes innerhero {
+    0%{background-position:50% 100%}
+    50%{background-position:51% 60%}
+    100%{background-position:50% 100%}
+}
+
+#inner-hero h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
+/* TEAM HEADS */
+
+#technophite-team h2 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.team-heads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    /* border: 1px dotted orangered;
+    padding: 2rem; */
+}
+
+.popup-person img {
+    width: 12rem;
+}
+
+.popup-person {
+    position: relative;
+    aspect-ratio: 1/1.25;
+    width: 12rem;
+    display: grid;
+    align-items: end;
+    border-radius: 0 0 100vw 100vw;
+    overflow: hidden;
+    transition: scale 0.3s ease;
+    margin: auto;
+}
+
+.person-img {
+    position: relative;
+    bottom: -15px;
+    scale: 1;
+    transition: scale 0.3s ease, bottom 0.3s ease;
+}
+
+.person-bg {
+    position: absolute;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    background-image: linear-gradient(orangered,transparent 80%);
+    transition: background-image 0.3s ease;
+}
+
+.popup-person:hover {
+    scale: 1.1;
+}
+
+.popup-person:hover .person-img {
+    scale: 1.1;
+    bottom: 5px;
+}
+
+.popup-person:hover .person-bg {
+    transition: background-image 0.3s ease;
+}
+
+.team-member {
+    text-align: center;
+    min-width: 16rem;
+}
+
+.team-member h3 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.team-member p {
+    margin-top: 0.2rem;
+    color: #ffa800;
+}
+
+.team-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:769px) {
