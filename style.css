@@ -331,9 +331,9 @@ footer ul {
 }
 
 @keyframes innerhero {
-    0%{background-position:50% 100%}
-    50%{background-position:51% 60%}
-    100%{background-position:50% 100%}
+    0%{background-position:70% 100%}
+    50%{background-position:71% 80%}
+    100%{background-position:70% 100%}
 }
 
 #inner-hero h1 {
@@ -347,14 +347,14 @@ footer ul {
 
 #technophite-team h2 {
     margin-top: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
 }
 
 .team-heads {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     /* border: 1px dotted orangered;
     padding: 2rem; */
@@ -366,7 +366,7 @@ footer ul {
 
 .popup-person {
     position: relative;
-    aspect-ratio: 1/1.25;
+    aspect-ratio: 1/1.5;
     width: 12rem;
     display: grid;
     align-items: end;
