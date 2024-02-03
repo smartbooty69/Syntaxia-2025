@@ -390,7 +390,7 @@ footer ul {
     border-radius: 50%;
     width: 12rem;
     height: 12rem;
-    background-image: linear-gradient(orangered,transparent 80%);
+    background-image: linear-gradient(#ff4500,transparent 80%);
     transition: background-image 0.3s ease;
 }
 
@@ -427,7 +427,16 @@ footer ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+.team-socials a {
     font-size: 1.2rem;
+    color: orangered;
+    transition: 0.2s ease-in-out;
+}
+
+.team-socials a:hover {
+    color: #ffa800;
 }
 
 /* MEDIA QUERIES */
