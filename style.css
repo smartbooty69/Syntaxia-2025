@@ -321,11 +321,11 @@ footer ul {
 
 /* INNER HERO */
 .no-bg {
-    background-image: unset;
+    background-size: cover;
 }
 
 #inner-hero {
-    background-image: linear-gradient(#cd0101,black);
+    background-image: linear-gradient(#cd0101,transparent);
     background-size: 400% 400%;
     animation: innerhero 30s ease infinite;
 }
