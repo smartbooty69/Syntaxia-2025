@@ -354,7 +354,7 @@ footer ul {
 .team-heads {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
     /* border: 1px dotted orangered;
     padding: 2rem; */
