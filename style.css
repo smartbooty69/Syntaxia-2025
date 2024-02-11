@@ -243,7 +243,8 @@ nav ul {
 }
 
 .event-listing {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
@@ -495,7 +496,10 @@ hr {
     .button {
         text-align: center;
     }
-    .team-heads {
+    .team-heads,.event-listing {
         display: flex;
+    }
+    .mob-hidden {
+        display: none;
     }
 }
