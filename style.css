@@ -346,9 +346,7 @@ hr {
 }
 
 /* INNER HERO */
-.no-bg {
-    background-size: cover;
-}
+
 
 #inner-hero {
     background-image: linear-gradient(#cd0101,transparent);
@@ -378,7 +376,8 @@ hr {
 }
 
 .team-heads {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     gap: 3rem;
     justify-content: center;
@@ -495,5 +494,8 @@ hr {
     }
     .button {
         text-align: center;
+    }
+    .team-heads {
+        display: flex;
     }
 }
