@@ -465,6 +465,37 @@ hr {
     color: #ffa800;
 }
 
+/* EVENT DETAILS */
+#event-details .container {
+    padding: 1rem 10rem 4rem;
+    text-align: center;
+}
+
+#event-details .title-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-imgs p {
+    max-width: 50%;
+    text-align: start;
+    text-wrap: balance;
+}
+
+.title-name {
+    padding-bottom: 2rem;
+}
+
+.title-name img {
+    max-width: 300px;
+    margin: auto;
+}
+
+.title-icon {
+    max-width: 180px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:769px) {
@@ -501,5 +532,14 @@ hr {
     }
     .mob-hidden {
         display: none;
+    }
+    #event-details .title-imgs {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .title-imgs p {
+        max-width: unset;
+        text-align: center;
     }
 }
