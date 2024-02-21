@@ -544,6 +544,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 1rem;
     }
     .mob-dropdown input{
         position: relative;
