@@ -484,8 +484,12 @@ hr {
     justify-content: center;
 }
 
-.title-imgs p {
+.title-imgs div {
     max-width: 50%;
+
+}
+
+.title-imgs p {
     text-align: start;
     text-wrap: balance;
 }
