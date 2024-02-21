@@ -486,7 +486,12 @@ hr {
 
 .title-imgs div {
     max-width: 50%;
+}
 
+.title-imgs a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
 }
 
 .title-imgs p {
