@@ -142,6 +142,10 @@ nav ul {
     gap: 10px;
 }
 
+.mob-dropdown {
+    display: none;
+}
+
 /* HERO SECTION */
 
 #hero {
@@ -527,11 +531,40 @@ hr {
 /* MEDIA QUERIES */
 
 @media screen and (max-width:769px) {
-    body{
+    body {
        background-image: unset;
     }
-    .nav-links, .nav-buttons {
+    .nav-logo, .nav-links, .nav-buttons {
         display: none;
+    }
+    .navbar {
+        background-color: #000;
+    }
+    .mob-dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-dropdown input{
+        position: relative;
+        display: none;
+    }
+    .mob-dropdown label {
+        position: absolute;
+    }
+    .mob-dropdown img {
+        width: 2rem;
+    }
+    .mob-dropdown ul {
+        display: none;
+    }
+    .mob-dropdown input:checked ~ ul {
+        display: block;
+        position: absolute;
+        top: 3.5rem;
+        text-align: center;
+        background-color: #000;
+        width: 100%;
     }
     .container {
         padding: 2rem!important;
