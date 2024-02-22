@@ -592,6 +592,9 @@ hr {
     .team-heads,.event-listing {
         display: flex;
     }
+    .event {
+        flex-basis: 180px;
+    }
     .mob-hidden {
         display: none;
     }
