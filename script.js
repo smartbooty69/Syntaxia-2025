@@ -19,9 +19,13 @@ $(document).ready(function() {
         if (this.checked) {
             // Set new source URL when checked
             imageElement.attr("src", "images/cross.webp"); // Replace with desired URL
+            $('.navbar').css('background-color','black');
+            imageElement.css('margin-top','-0.5rem');
         } else {
             // Reset source URL when unchecked
             imageElement.attr("src", "images/hamburger.webp"); // Replace with original URL
+            $('.navbar').css('background-color','transparent');
+            imageElement.css('margin-top','unset');
         }
     });
 });
