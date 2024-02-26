@@ -9,3 +9,19 @@ $(document).ready(function() {
       }
     });
 }); 
+
+$(document).ready(function() {
+    const checkbox = $('input[type="checkbox"]');
+    const imageElement = $('#hamburger'); 
+    
+    // Bind event listener for checking the box
+    checkbox.on("change", function() {
+        if (this.checked) {
+            // Set new source URL when checked
+            imageElement.attr("src", "images/cross.webp"); // Replace with desired URL
+        } else {
+            // Reset source URL when unchecked
+            imageElement.attr("src", "images/hamburger.webp"); // Replace with original URL
+        }
+    });
+});
