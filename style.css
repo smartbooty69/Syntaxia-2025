@@ -29,6 +29,10 @@ p {
     line-height: 2rem;
 }
 
+p span {
+    color: #ffa800;
+}
+
 img {
     display: block;
 }
