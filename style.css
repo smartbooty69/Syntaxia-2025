@@ -514,6 +514,7 @@ hr {
 }
 
 .title-name img {
+    width: 100%;
     max-width: 300px;
     margin: auto;
 }
@@ -616,5 +617,15 @@ hr {
     .title-imgs p {
         max-width: unset;
         text-align: center;
+    }
+
+    .title-imgs div {
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    .register-banner h2 {
+        padding: 1rem;
     }
 }
