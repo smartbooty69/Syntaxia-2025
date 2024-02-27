@@ -533,6 +533,7 @@ hr {
 
 .text-center li {
     list-style-type: disc;
+    text-wrap: balance;
 }
 
 /* MEDIA QUERIES */
