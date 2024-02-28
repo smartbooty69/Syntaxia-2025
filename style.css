@@ -536,6 +536,13 @@ hr {
     text-wrap: balance;
 }
 
+.next-and-prev-keys {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:769px) {
