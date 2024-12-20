@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            background-color: #31511E;
+        }
+    </style>
+</head>
+<body id="particles-js">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 1000
+                    }
+                },
+                "color": {
+                    "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#fff"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.6,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 2,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 120,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <!---- Hidden Open / Close Toggles ---->
+    <input type="radio" id="nav-close" name="nav-toggle" value="nav-close">
+    <input type="radio" id="nav-toggle" name="nav-toggle" value="nav-toggle">
+    <!---- END Hidden Toggles ---->
+
+    <!---- Visual Open Menu Toggle ---->
+    <a href="javascript:void(0);" class="nav-toggle">
+
+        <label for="nav-toggle"></label>
+
+        <img src="images/syntaxia-logo.svg" alt="Syntaxia Logo">
+
+
+    </a>
+    <!---- END Visual Open Menu Toggle ---->
+
+    <!---- Visual Close Menu Toggle ----->
+    <a href="javascript:void(0);" class="nav-close">
+
+        <label for="nav-close"></label>
+
+        <svg xmlns="" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+        </svg>
+
+    </a>
+    <!---- END Visual Close Menu Toggle ---->
+    
+
+    <!---- Logo Draw Animation, during transition ---->
+    <div class="logo-draw">
+        <img src="images/SYNTAXIA-2024.svg" alt="Syntaxia Logo" height="100%" width="100%">
+    </div>
+    <!----- END End Logo Draw Animation ---->
+
+    <!----- Main Navigation ---->
+    <nav>
+
+        <ul>
+            <li><a href="javascript:void(0);" title="About" rel="noopener">About</a></li>
+
+            <li><a href="pages\events.html" title="Events" rel="noopener">Events</a></li>
+
+            <li><a href="pages/team.html" title="Team" rel="noopener">Team</a></li>
+
+            <li><a href="pages/conatct.html" title="Contact" rel="noopener">Contact</a></li>
+
+            <li><a href="javascript:void(0);" title="Brochure" rel="noopener">Brochure</a></li>
+        </ul>
+
+    </nav>
+    <!---- END Main Navigation ---->
+
+</body>
+</html>

@@ -1,0 +1,293 @@
+@import '/css/style.css';
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* scrollbar-width: none;
+    -ms-overflow-style: none; */
+    background-color: #31511E;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+.container {
+    top: 50px;
+    height: 100%;
+    width: 100vw;
+    max-width: 1280px;
+    min-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;    
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nav-container {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 50vh;
+	overflow: hidden;
+	background: #1A1A19;
+	margin: 0;
+    margin-top: 270px;
+}
+
+.nav-toggle, .logo-draw {
+    width: 20%;
+	height: 40%;
+}
+
+.nav-toggle > img {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	transition: all 0.3s ease-in;
+}
+
+.logo-draw > img {
+	width: 80%;
+	height: auto;
+	animation: fade-in 1s ease-in-out 1;
+}
+
+.logo-draw > img:nth-child(2) > * {
+	opacity: 0;
+	animation: fade-in 2.5s ease-in-out 1;
+	animation-fill-mode: forwards;
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid #326250;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+    margin-top: 60px;
+    color: #3eb529;
+    font-family: cursive;
+}
+
+.card {
+    height: 379px;
+    width: 300px;
+    background: #5A6C57;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.card0 {
+    background: url('/images/heads/calvinvictor.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url('/images/heads/calvinvictor.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+.card1 {
+    background: url('/images/heads/Sumanth.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url('/images/heads/Sumanth.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+
+.card1:hover .fa {
+    opacity: 1;
+}
+
+.card2 {
+    background: url('/images/heads/melvin.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url('/images/heads/melvin.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+
+.card2:hover .fa {
+    opacity: 1;
+}
+
+.card3 {
+    background: url('/images/heads/james.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card3:hover {
+    background: url('/images/heads/james.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card3:hover h2 {
+    opacity: 1;
+}
+
+.card3:hover .fa {
+    opacity: 1;
+}
+
+.card4 {
+    background: url('/images/heads/aravind.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card4:hover {
+    background: url('/images/heads/aravind.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card4:hover h2 {
+    opacity: 1;
+}
+
+.card4:hover .fa {
+    opacity: 1;
+}
+
+.card5 {
+    background: url('https://www.biography.com/.image/t_share/MTc5OTk0MjcxNzk0MzcyMzM2/gettyimages-1136409474.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card5:hover {
+    background: url('https://www.biography.com/.image/t_share/MTc5OTk0MjcxNzk0MzcyMzM2/gettyimages-1136409474.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card5:hover h2 {
+    opacity: 1;
+}
+
+.card5:hover .fa {
+    opacity: 1;
+}
+
+.card6 {
+    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjM5ODg2MzUx/denzel-washington-9524687-2-402.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card6:hover {
+    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjM5ODg2MzUx/denzel-washington-9524687-2-402.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card6:hover h2 {
+    opacity: 1;
+}
+
+.card6:hover .fa {
+    opacity: 1;
+}
+
+.card7 {
+    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTM3OTYxNzQz/leonardo-dicaprio-9273992-1-402.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card7:hover {
+    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTM3OTYxNzQz/leonardo-dicaprio-9273992-1-402.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card7:hover h2 {
+    opacity: 1;
+}
+
+.card7:hover .fa {
+    opacity: 1;
+}
+
+.card8 {
+    background: url('https://www.biography.com/.image/t_share/MTE5NTU2MzE2MjgwNDg5NDgz/tom-hanks-9327661-1-402.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card8:hover {
+    background: url('https://www.biography.com/.image/t_share/MTE5NTU2MzE2MjgwNDg5NDgz/tom-hanks-9327661-1-402.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card8:hover h2 {
+    opacity: 1;
+}
+
+.card8:hover .fa {
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #08a46b;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons {
+    position: absolute;
+    fill: #326250;
+    color: #326250;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
