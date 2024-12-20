@@ -14,6 +14,7 @@ body {
     scrollbar-width: none;
     -ms-overflow-style: none;
     background-color: #31511E;
+	overflow: hidden;
 }
 
 
@@ -32,18 +33,6 @@ body::-webkit-scrollbar {
     margin: 0;
     margin-top: 10rem;
 }
-
-/* .nav-toggle, .nav-close {
-    position: absolute;
-    display: flex;
-    width: 100px;
-    height: 90px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 5;
-    transition: all 0.2s ease-in-out;
-} */
 
 .nav-toggle, .logo-draw {
     width: 20%;
@@ -176,6 +165,34 @@ body::-webkit-scrollbar {
     cursor: pointer;
     gap: 0px;
 }
+
+
+.nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  .nine h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#000000; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .nine h1 span:after,.nine h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
 
 @media(max-width:736px){
     .contact-form .main{
