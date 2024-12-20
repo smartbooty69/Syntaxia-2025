@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
     padding: 2rem;
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .nav-container {
@@ -43,10 +43,10 @@ body::-webkit-scrollbar {
     overflow: hidden;
     background: #31511E;
     margin: 0;
-    margin-top: 920px;
+    margin-top: 68rem;
 }
 
-.nav-toggle, .nav-close {
+/* .nav-toggle, .nav-close {
     position: absolute;
     display: flex;
     width: 100px;
@@ -54,9 +54,9 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 5;
     transition: all 0.2s ease-in-out;
-}
+} */
 
 .nav-toggle, .logo-draw {
     width: 20%;
@@ -308,3 +308,30 @@ code {
 }
 
 
+.nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  .nine h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#000000; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .nine h1 span:after,.nine h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+  

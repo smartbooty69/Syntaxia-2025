@@ -16,7 +16,7 @@ html {
 	font-size: 12pt;
 	line-height: 18pt;
 	font-weight: 400;
-	color: #5A6C57;
+	color: radial-gradient(circle at 70% 50%, rgb(16, 130, 5) 0%, rgb(145, 167, 192) 100%);;
 }
 
 body {

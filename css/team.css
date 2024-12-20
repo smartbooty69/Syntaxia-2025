@@ -24,7 +24,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;    
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 20px;
     gap: 20px;
 }
@@ -39,7 +39,7 @@ body {
 	overflow: hidden;
 	background: #1A1A19;
 	margin: 0;
-    margin-top: 270px;
+    margin-top: 370px;
 }
 
 .nav-toggle, .logo-draw {
@@ -85,7 +85,7 @@ body {
     color: white;
     margin: 0;
     margin-top: 60px;
-    color: #3eb529;
+    color: #000000;
     font-family: cursive;
 }
 
@@ -110,16 +110,20 @@ body {
 }
 
 .card0:hover {
-    background: url('/images/heads/calvinvictor.jpg') left center no-repeat;
+    background: url('/images/heads/calvinvictor.jpg')  left center no-repeat ;
     background-size: 600px;
 }
 
 .card0:hover h2 {
+    opacity: 2;
+}
+
+.card0:hover h3 {
     opacity: 1;
 }
 
 .card0:hover .fa {
-    opacity: 1;
+    opacity: 2;
 }
 
 .card1 {
@@ -133,6 +137,10 @@ body {
 }
 
 .card1:hover h2 {
+    opacity: 1;
+}
+
+.card1:hover h3 {
     opacity: 1;
 }
 
@@ -154,6 +162,10 @@ body {
     opacity: 1;
 }
 
+.card2:hover h3 {
+    opacity: 1;
+}
+
 .card2:hover .fa {
     opacity: 1;
 }
@@ -169,6 +181,10 @@ body {
 }
 
 .card3:hover h2 {
+    opacity: 1;
+}
+
+.card3:hover h3 {
     opacity: 1;
 }
 
@@ -190,6 +206,10 @@ body {
     opacity: 1;
 }
 
+.card4:hover h3 {
+    opacity: 1;
+}
+
 .card4:hover .fa {
     opacity: 1;
 }
@@ -205,6 +225,10 @@ body {
 }
 
 .card5:hover h2 {
+    opacity: 1;
+}
+
+.card5:hover h3 {
     opacity: 1;
 }
 
@@ -226,6 +250,10 @@ body {
     opacity: 1;
 }
 
+.card6:hover h3 {
+    opacity: 1;
+}
+
 .card6:hover .fa {
     opacity: 1;
 }
@@ -241,6 +269,10 @@ body {
 }
 
 .card7:hover h2 {
+    opacity: 1;
+}
+
+.card7:hover h3 {
     opacity: 1;
 }
 
@@ -262,6 +294,10 @@ body {
     opacity: 1;
 }
 
+.card8:hover h3 {
+    opacity: 1;
+}
+
 .card8:hover .fa {
     opacity: 1;
 }
@@ -279,34 +315,209 @@ body {
     opacity: 1;
 }
 
+.card9:hover h3 {
+    opacity: 1;
+}
+
 .card9:hover .fa {
     opacity: 1;
 }
 
 .card10 {
-    background: url('/images/heads/') center center no-repeat;
+    background: url('/images/heads/anson.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card10:hover {
-    background: url('/images/heads/') left center no-repeat;
+    background: url('/images/heads/anson.jpg') left center no-repeat;
     background-size: 600px;
+
 }
 
 .card10:hover h2 {
     opacity: 1;
 }
 
-.card10:hover .fa {
+.card10:hover h3 {
     opacity: 1;
 }
 
+.card10:hover .fa {
+    opacity: 1;
+}
+.card11 {
+    background: url('/images/heads/usha.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card11:hover {
+    background: url('/images/heads/usha.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card11:hover h2 {
+    opacity: 1;
+}
+
+.card11:hover h3 {
+    opacity: 1;
+}
+
+.card11:hover .fa {
+    opacity: 1;
+}
+
+.card12 {
+    background: url('/images/heads/clan.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card12:hover {
+    background: url('/images/heads/clan.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card12:hover h2 {
+    opacity: 1;
+}
+
+.card12:hover h3 {
+    opacity: 1;
+}
+
+.card12:hover .fa {
+    opacity: 1;
+}
+
+.card13 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card13:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card13:hover h2 {
+    opacity: 1;
+}
+
+.card13:hover h3 {
+    opacity: 1;
+}
+
+.card13:hover .fa {
+    opacity: 1;
+}
+
+.card14 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card14:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card14:hover h2 {
+    opacity: 1;
+}
+
+.card14:hover h3 {
+    opacity: 1;
+}
+
+.card14:hover .fa {
+    opacity: 1;
+}
+
+.card15 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card15:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card15:hover h2 {
+    opacity: 1;
+}
+
+.card15:hover h3 {
+    opacity: 1;
+}
+
+.card15:hover .fa {
+    opacity: 1;
+}
+
+.card16 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card16:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card16:hover h2 {
+    opacity: 1;
+}
+
+.card16:hover h3 {
+    opacity: 1;
+}
+
+.card16:hover .fa {
+    opacity: 1;
+}
+
+.card17 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card17:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card17:hover h2 {
+    opacity: 1;
+}
+
+.card17:hover h3 {
+    opacity: 1;
+}
+
+.card17:hover .fa {
+    opacity: 1;
+}
+
+
 h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #08a46b;
+    color: #ffffff;
     margin: 20px;
     opacity: 0;
     transition: opacity 1s;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fa {
@@ -314,15 +525,49 @@ h2 {
     transition: opacity 1s;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .icons {
     position: absolute;
-    fill: #326250;
-    color: #326250;
+    fill: #ffffff;
+    color: #ffffff;
     height: 130px;
     top: 226px;
-    width: 50px;
+    width: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
+
+.nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .nine h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#000000; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .nine h1 span:after,.nine h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+  
