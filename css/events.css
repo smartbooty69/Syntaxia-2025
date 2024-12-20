@@ -8,7 +8,7 @@ body {
     background-color: #31511E;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
     background: #31511E;
     margin: 0;
-    margin-top: 720px;
+    margin-top: 920px;
 }
 
 .nav-toggle, .nav-close {
@@ -82,18 +82,6 @@ body::-webkit-scrollbar {
 	animation-fill-mode: forwards;
 }
 
-/* #nav-toggle:checked ~ body {
-    overflow: hidden;
-    background-color: #31511E;
-}
-
-#nav-toggle:checked ~ .event-container {
-    display: none;
-
-} */
-
-/* Add any additional styles needed for the navbar here */
-
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
@@ -113,6 +101,7 @@ code {
     -webkit-backdrop-filter: blur(7px);
     overflow: hidden;
     transition: .5s all;
+    justify-items: center;
 }
 
 .nft hr {
@@ -129,8 +118,10 @@ code {
 .nft .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 90%;
     padding: 1rem;
+    height: 100%;
 }
 
 .nft .tokenImage {
@@ -151,26 +142,26 @@ code {
     align-items: center;
 }
 
-.nft .tokenInfo .price {
+.nft .tokenInfo .time {
     display: flex;
     align-items: center;
     color: #E9EFEC;
     font-weight: 700;
 }
 
-.nft .tokenInfo .price ins {
+.nft .tokenInfo .time ins {
     margin-left: -.3rem;
     margin-right: .5rem;
 }
 
-.nft .tokenInfo .duration {
+.nft .tokenInfo .people {
     display: flex;
     align-items: center;
     color: #C4DAD2;
     margin-right: .2rem;
 }
 
-.nft .tokenInfo .duration ins {
+.nft .tokenInfo .people ins {
     margin: .5rem;
     margin-bottom: .4rem;
 }
@@ -243,13 +234,77 @@ code {
     filter: opacity(0.5);
 }
 
+.contact-button {
+    background-color: #3b9145;
+    color: #E9EFEC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 0.75rem;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+    align-self: center;
+}
+
+.contact-button:hover {
+    background-color: #1faa2f;
+}
+
 @media (max-width: 768px) {
-    body {
-        grid-template-columns: 1fr;
+    .nav-container {
+        margin-top: 307rem;
     }
-    
-    .nft {
-        max-width: 300px;
-        margin: 0 auto;
+
+    .event-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        margin-top: 1rem;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .nft h2 {
+        font-size: 1.2em;
+    }
+
+    .nft p.description {
+        font-size: 0.9em;
+    }
+
+    .nft .tokenInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-button {
+        width: 90%;
+        font-size: 0.9em;
+        padding: 8px 16px;
+        margin-top: 0.75rem;
     }
 }
+
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 5px 10px;
+    }
+
+    .nft h2 {
+        font-size: 1em;
+    }
+
+    .nft p.description {
+        font-size: 0.8em;
+    }
+
+    .contact-button {
+        width: 100%;
+        font-size: 0.8em;
+        padding: 6px 12px;
+        margin-top: 0.75rem;
+    }
+}
+
+

@@ -195,12 +195,12 @@ body {
 }
 
 .card5 {
-    background: url('https://www.biography.com/.image/t_share/MTc5OTk0MjcxNzk0MzcyMzM2/gettyimages-1136409474.jpg') center center no-repeat;
+    background: url('/images/heads/ahad.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card5:hover {
-    background: url('https://www.biography.com/.image/t_share/MTc5OTk0MjcxNzk0MzcyMzM2/gettyimages-1136409474.jpg') left center no-repeat;
+    background: url('/images/heads/ahad.jpg') left center no-repeat;
     background-size: 600px;
 }
 
@@ -213,12 +213,12 @@ body {
 }
 
 .card6 {
-    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjM5ODg2MzUx/denzel-washington-9524687-2-402.jpg') center center no-repeat;
+    background: url('/images/heads/nandini.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card6:hover {
-    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjM5ODg2MzUx/denzel-washington-9524687-2-402.jpg') left center no-repeat;
+    background: url('/images/heads/nandini.jpg') left center no-repeat;
     background-size: 600px;
 }
 
@@ -231,12 +231,12 @@ body {
 }
 
 .card7 {
-    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTM3OTYxNzQz/leonardo-dicaprio-9273992-1-402.jpg') center center no-repeat;
+    background: url('/images/heads/rejeesh.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card7:hover {
-    background: url('https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTM3OTYxNzQz/leonardo-dicaprio-9273992-1-402.jpg') left center no-repeat;
+    background: url('/images/heads/rejeesh.jpg') left center no-repeat;
     background-size: 600px;
 }
 
@@ -249,12 +249,12 @@ body {
 }
 
 .card8 {
-    background: url('https://www.biography.com/.image/t_share/MTE5NTU2MzE2MjgwNDg5NDgz/tom-hanks-9327661-1-402.jpg') center center no-repeat;
+    background: url('/images/heads/Monica.jpg') center center no-repeat;
     background-size: 300px;
 }
 
 .card8:hover {
-    background: url('https://www.biography.com/.image/t_share/MTE5NTU2MzE2MjgwNDg5NDgz/tom-hanks-9327661-1-402.jpg') left center no-repeat;
+    background: url('/images/heads/Monica.jpg') left center no-repeat;
     background-size: 600px;
 }
 
@@ -263,6 +263,41 @@ body {
 }
 
 .card8:hover .fa {
+    opacity: 1;
+}
+.card9 {
+    background: url('/images/heads/smitha.jpg') center center no-repeat;
+    background-size: 300px;
+}
+
+.card9:hover {
+    background: url('/images/heads/smitha.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card9:hover h2 {
+    opacity: 1;
+}
+
+.card9:hover .fa {
+    opacity: 1;
+}
+
+.card10 {
+    background: url('/images/heads/') center center no-repeat;
+    background-size: 300px;
+}
+
+.card10:hover {
+    background: url('/images/heads/') left center no-repeat;
+    background-size: 600px;
+}
+
+.card10:hover h2 {
+    opacity: 1;
+}
+
+.card10:hover .fa {
     opacity: 1;
 }
 
