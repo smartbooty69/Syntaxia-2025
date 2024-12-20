@@ -199,8 +199,30 @@ a {
   }
 
 @media(max-width:736px){
+
+	body {
+		overflow-y: scroll;
+		overflow-x: hidden;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+		background-color: #31511E;
+		overflow: scroll;
+	}
+
+	.nav-container {
+        
+        padding: 15px 0;
+        background-color: #31511E;
+		margin-top: 15rem;
+    }
+
+    .nav-toggle, .logo-draw {
+        width: 70%;
+    }
+
     .contact-form .main{
         flex-direction: column;
+		gap: 2rem;
     }
     .contact-form form{
         margin-top: 30px;

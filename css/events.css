@@ -254,7 +254,14 @@ code {
 
 @media (max-width: 768px) {
     .nav-container {
-        margin-top: 307rem;
+        
+        padding: 15px 0;
+        background-color: #31511E;
+        margin-top: 325rem;
+    }
+
+    .nav-toggle, .logo-draw {
+        width: 70%;
     }
 
     .event-container {
@@ -284,6 +291,16 @@ code {
         padding: 8px 16px;
         margin-top: 0.75rem;
     }
+
+    #particles-js {
+        width: 100%;
+        height: 660%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; 
+    }
+
 }
 
 @media (max-width: 480px) {
