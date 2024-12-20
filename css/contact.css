@@ -166,6 +166,10 @@ body::-webkit-scrollbar {
     gap: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #69275c;
+}
 
 .nine h1 {
     text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
