@@ -240,10 +240,10 @@ nav {
 	height: 100%;
 	background: linear-gradient(
 		120deg,
-		#85A98F,  /* Updated */
-		#5A6C57,  /* Updated */
-		#F6FCDF,  /* Updated */
-		#1A1A19   /* Updated */
+		#85A98F,  
+		#5A6C57,  
+		#F6FCDF,  
+		#1A1A19   
 	);
 	z-index: 3;
 }
@@ -330,12 +330,12 @@ nav > ul > li::after {
 	width: 100%;
 	z-index: -1;
 	content: "";
-	background: #BFBFBF; /* Light Gray */
+	background: #BFBFBF; 
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
 nav > ul > li::after {
-	background: #03001C; /* Dark Navy */
+	background: #03001C; 
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
@@ -356,45 +356,45 @@ nav > ul > li:nth-child(1) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4s !important;
 	left: 0;
-	background: #85A98F; /* Green */
+	background: #85A98F; 
 }
 
 nav > ul > li:nth-child(2) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.3s !important;
 	left: 20%;
-	background: #5A6C57; /* Green */
+	background: #5A6C57; 
 }
 
 nav > ul > li:nth-child(3) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.6s !important;
 	left: 40%;
-	background: #31511E; /* Dark Green */
+	background: #31511E; 
 }
 
 nav > ul > li:nth-child(4) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.9s !important;
 	left: 60%;
-	background: #859F3D; /* Light Green */
+	background: #859F3D;
 }
 
 nav > ul > li:nth-child(5) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 5.2s !important;
 	left: 80%;
-	background: #F6FCDF; /* Light Gray */
+	background: #F6FCDF; 
 }
 
 nav > ul > li:nth-child(6) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 5.5s !important;
 	left: 100%;
-	background: #85A98F; /* Green */
+	background: #85A98F; 
 }
 
-/* --- Responsivity --- */
+
 
 @media (max-width: 890px) {
 	nav > ul > li > a {

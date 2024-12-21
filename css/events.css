@@ -14,24 +14,6 @@ body::-webkit-scrollbar {
 }
 
 
-.event-container {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #31511E;
-    color: #E9EFEC;
-    user-select: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    margin-top: 10px;
-}
 
 .nav-container {
     display: flex;
@@ -46,17 +28,7 @@ body::-webkit-scrollbar {
     margin-top: 68rem;
 }
 
-/* .nav-toggle, .nav-close {
-    position: absolute;
-    display: flex;
-    width: 100px;
-    height: 90px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 5;
-    transition: all 0.2s ease-in-out;
-} */
+
 
 .nav-toggle, .logo-draw {
     width: 20%;
