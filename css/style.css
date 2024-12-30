@@ -315,9 +315,15 @@ nav ul {
 
 #registration {
     background: rgb(61,85,12);
-    background: linear-gradient(0deg, rgba(61,85,12,1) 45%, rgba(29,65,53,1) 63%);
+    background: linear-gradient(170deg, rgba(61,85,12,1) 45%, rgba(29,65,53,1) 53%);
     color: #000;
     text-align: center;
+}
+
+#registration-event{
+    background: rgb(29,65,53);
+    background: linear-gradient(170deg, rgba(29,65,53,1) 45%, rgba(61,85,12,1) 53%);
+    width: 100wh;
 }
 
 #registration .container {
@@ -346,7 +352,6 @@ footer .container {
 footer .row {
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
 }
 
 footer h4 {
@@ -361,7 +366,6 @@ li {
 footer a {
     font-family: "Turret Road", serif;
     font-size: 14px;
-    width: 2rem;
 }
 
 footer ul {
@@ -374,14 +378,8 @@ footer ul {
 .contact .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    width: 50%;
+    grid-gap: 3rem;
 }
-
-.contact .grid-item {
-    width: 50px;
-}
-
 
 .contact .grid-container a{
     font-size: 3rem;
@@ -404,15 +402,10 @@ footer ul {
     font-size: 14px;
 }
 
-.tp-logo {
-    max-width: 100px;
-    width: 100px;
-}
-
 .tp-logo img {
     transition: 0.3s;
-    max-width: 100px;
-    width: 100px;
+    max-width: 9rem;
+    width: 9rem;
 }
 
 .tp-logo a:hover>img {
@@ -449,6 +442,7 @@ hr {
 .copyright a:hover::after {
     width: 0;
 }
+
 
 /* INNER HERO */
 
