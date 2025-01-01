@@ -1212,6 +1212,7 @@ hr {
         padding-bottom: 1rem;
         margin-top: 0;
     }
+    
     .container {
         padding: 2rem!important;
     }
@@ -1220,7 +1221,7 @@ hr {
     }
     #hero .mob-title {
         display: block;
-        width: 60%;
+        width: 80%;
     }
     #registration {
         background-image: linear-gradient(#59981A, #000000 70%);
@@ -1231,6 +1232,14 @@ hr {
     .register-banner h2 {
         font-size: 2.5rem;
         text-align: center;
+    }
+
+    #hero .button-title a {
+        border: 1px solid #81B622;
+        padding: 5px 10px;
+        transition: 0.3s;
+        font-size: 2rem;
+    
     }
 
     footer .row {
